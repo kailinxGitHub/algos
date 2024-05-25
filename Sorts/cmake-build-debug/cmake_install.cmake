@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kailinx/Desktop/NUCAR/Sort
+# Install script for directory: /Users/kailinx/Desktop/algos/Sorts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/kailinx/Desktop/NUCAR/Sort/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kailinx/Desktop/algos/Sorts/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/kailinx/Desktop/NUCAR/Sort/cmake-build-debug"
+			"value" : "/Users/kailinx/Desktop/algos/Sorts/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/kailinx/Desktop/NUCAR/Sort/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/kailinx/Desktop/algos/Sorts/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/kailinx/Desktop/NUCAR/Sort"
+			"value" : "/Users/kailinx/Desktop/algos/Sorts"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1031,7 +1031,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/kailinx/Desktop/NUCAR/Sort/cmake-build-debug"
+			"value" : "/Users/kailinx/Desktop/algos/Sorts/cmake-build-debug"
 		},
 		{
 			"name" : "Sort_IS_TOP_LEVEL",
@@ -1055,7 +1055,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/kailinx/Desktop/NUCAR/Sort"
+			"value" : "/Users/kailinx/Desktop/algos/Sorts"
 		}
 	],
 	"kind" : "cache",

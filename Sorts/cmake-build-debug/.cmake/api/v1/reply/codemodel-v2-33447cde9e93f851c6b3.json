@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/kailinx/Desktop/NUCAR/Sort/cmake-build-debug",
-		"source" : "/Users/kailinx/Desktop/NUCAR/Sort"
+		"build" : "/Users/kailinx/Desktop/algos/Sorts/cmake-build-debug",
+		"source" : "/Users/kailinx/Desktop/algos/Sorts"
 	},
 	"version" : 
 	{
