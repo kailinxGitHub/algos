@@ -114,6 +114,31 @@ void mergeSort (int unordered[], int start, int end) {
     }
 }
 
-void quickSort (int unordered[], int start, int end) {
+int partition (int unordered[], int start, int end) {
+    int pivot = unordered[end];
+    int i = start - 1;
 
+    for (int j = start; j < end - 1; j++) {
+        if (unordered[j] < pivot) {
+            i++;
+            int temp = unordered[i];
+            unordered[i] = unordered[j];
+            unordered[j] = temp;
+        }
+    }
+
+    int temp = unordered[i + 1];
+    unordered[i + 1] = unordered[end];
+    unordered[end] = temp;
+
+    return (i + 1);
+}
+
+void quickSort (int unordered[], int start, int end) {
+    if (start < end) {
+        int pivotIndex = partition(unordered, start, end);
+
+        quickSort(unordered, start, pivotIndex - 1);
+        quickSort(unordered, pivotIndex + 1, end);
+    }
 }

@@ -37,6 +37,8 @@ void testSort(int arr[], int size, char type[]) {
         insertionSort(arr, size);
     } else if (strcmp(type, "mergeSort") == 0) {
         mergeSort(arr, 0, size);
+    } else if (strcmp(type, "quickSort") == 0) {
+        quickSort(arr, 0, size);
     }
     time_req = clock() - time_req;
 
@@ -67,14 +69,17 @@ int main(void) {
     int* aHundredInts2 = randomIntArrGenerator(1, 1000, numWanted);
     int* aHundredInts3 = randomIntArrGenerator(1, 1000, numWanted);
     int* aHundredInts4 = randomIntArrGenerator(1, 1000, numWanted);
+    int* aHundredInts5 = randomIntArrGenerator(1, 1000, numWanted);
 
     testSort(aHundredInts, numWanted, "selectionSort");
     testSort(aHundredInts2, numWanted, "bubbleSort");
     testSort(aHundredInts3, numWanted, "insertionSort");
     testSort(aHundredInts4, numWanted, "mergeSort");
+    testSort(aHundredInts5, numWanted, "quickSort");
 
     free(aHundredInts);
     free(aHundredInts2);
     free(aHundredInts3);
     free(aHundredInts4);
+    free(aHundredInts5);
 }
