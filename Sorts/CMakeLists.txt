@@ -6,4 +6,6 @@ set(CMAKE_C_STANDARD 11)
 add_executable(Sort main.c
         sorts.c
         sorts.h
+        randIntGen.h
+        randIntGen.c
 )

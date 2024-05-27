@@ -5,81 +5,86 @@
  * */
 
 #include <stdio.h>
-#include <string.h>
-#include <time.h>
 #include <stdlib.h>
-#include "sorts.h"
+#include <string.h>
+#include <stdbool.h>
+#include <time.h>
+#include "randIntGen.h"
 
-void printArray(int arr[], int size) {
+bool containsStr(const char *stringArr[], int size, const char *target) {
     for (int i = 0; i < size; i++) {
-        if (i == size - 1) {
-            printf("%d. ", arr[i]);
-            break;
+        if (strcmp(stringArr[i], target) == 0) {
+            return true;
         }
-        printf("%d, ", arr[i]);
     }
-    printf("\n");
+    return false;
 }
 
-void testSort(int arr[], int size, char type[]) {
-    clock_t time_req;
+float *genSortsComp (char sortOne[], char sortTwo[], int minInt, int maxInt, int intWanted) {
+    char* validSorts[] = {"selectionSort", "bubbleSort", "insertionSort", "mergeSort", "quickSort"};
+    int size = sizeof(validSorts)/sizeof(validSorts[0]);
 
-    printf("Before: ");
-    printArray(arr, size);
+    if (containsStr(validSorts, size, sortOne) && containsStr(validSorts, size, sortTwo)) {
+        int* aHundredIntsOne = randomIntArrGenerator(minInt, maxInt, intWanted);
+        int* aHundredIntsTwo = randomIntArrGenerator(minInt, maxInt, intWanted);
 
-    printf("After: ");
-    time_req = clock();
-    if (strcmp(type, "selectionSort") == 0) {
-        selectionSort(arr, size);
-    } else if (strcmp(type, "bubbleSort") == 0) {
-        bubbleSort(arr, size);
-    } else if (strcmp(type, "insertionSort") == 0) {
-        insertionSort(arr, size);
-    } else if (strcmp(type, "mergeSort") == 0) {
-        mergeSort(arr, 0, size);
-    } else if (strcmp(type, "quickSort") == 0) {
-        quickSort(arr, 0, size);
+        float* times = (float*)malloc(2 * sizeof(float));
+
+        times[0] = testSort(aHundredIntsOne, intWanted, sortOne);
+        times[1] = testSort(aHundredIntsTwo, intWanted, sortTwo);
+
+        free(aHundredIntsOne);
+        free(aHundredIntsTwo);
+
+        return times;
+    } else {
+        return NULL;
     }
-    time_req = clock() - time_req;
+}
 
-    printArray(arr, size);
+void genSortsCompLoop (char sortOne[], char sortTwo[], int minInt, int maxInt, int intWanted, int timesWanted) {
+    float timeArr[2][timesWanted];
+
+    for (int i = 0; i < timesWanted; i++) {
+        float *iteration = genSortsComp(sortOne, sortTwo, minInt, maxInt, intWanted);
+
+        if (iteration != NULL) {
+            timeArr[0][i] = iteration[0];
+            timeArr[1][i] = iteration[1];
+        } else {
+            timeArr[0][i] = 0;
+            timeArr[1][i] = 0;
+        }
+
+//        debug
+        printArray(timeArr, timesWanted);
+    }
+
+    float SortOneArr[timesWanted], SortTwoArr[timesWanted];
+    for (int i = 0; i < timesWanted; i++) {
+        SortOneArr[i] = timeArr[0][i];
+        SortTwoArr[i] = timeArr[1][i];
+    }
+
+    float sortOneAvg;
+    for(int i = 0; i < timesWanted; i++) {
+        sortOneAvg += SortOneArr[i];
+    }
+    sortOneAvg = sortOneAvg/timesWanted;
+
+    float sortTwoAvg;
+    for(int i = 0; i < timesWanted; i++) {
+        sortTwoAvg += SortTwoArr[i];
+    }
+    sortTwoAvg = sortTwoAvg/timesWanted;
+
     printf("%s Processor time taken: %f "
+           "seconds\n"
+           "%s Processor time taken: %f "
            "seconds\n",
-           type, (float)time_req / CLOCKS_PER_SEC);
-}
-
-int* randomIntArrGenerator(int min, int max, int numWanted) {
-//    Dynamic Memory Allocation, I don't understand
-    int* randomIntArr = (int*)malloc(numWanted * sizeof(int));
-
-    int size = 0;
-    while (size < numWanted) {
-        int randInt = rand();
-        if (randInt < max && randInt > min) {
-            randomIntArr[size++] = randInt;
-        }
-    }
-    return randomIntArr;
+           sortOne, sortOneAvg/CLOCKS_PER_SEC, sortTwo, sortTwoAvg/CLOCKS_PER_SEC);
 }
 
 int main(void) {
-//    generate random 100 integers stored in an array
-    int numWanted = 100;
-    int* aHundredInts = randomIntArrGenerator(1, 1000, numWanted);
-    int* aHundredInts2 = randomIntArrGenerator(1, 1000, numWanted);
-    int* aHundredInts3 = randomIntArrGenerator(1, 1000, numWanted);
-    int* aHundredInts4 = randomIntArrGenerator(1, 1000, numWanted);
-    int* aHundredInts5 = randomIntArrGenerator(1, 1000, numWanted);
-
-    testSort(aHundredInts, numWanted, "selectionSort");
-    testSort(aHundredInts2, numWanted, "bubbleSort");
-    testSort(aHundredInts3, numWanted, "insertionSort");
-    testSort(aHundredInts4, numWanted, "mergeSort");
-    testSort(aHundredInts5, numWanted, "quickSort");
-
-    free(aHundredInts);
-    free(aHundredInts2);
-    free(aHundredInts3);
-    free(aHundredInts4);
-    free(aHundredInts5);
+    genSortsCompLoop("bubbleSort", "quickSort", 1, 1000, 100, 10000);
 }
