@@ -25,10 +25,10 @@ float *genSortsComp (char sortOne[], char sortTwo[], int minInt, int maxInt, int
     int size = sizeof(validSorts)/sizeof(validSorts[0]);
 
     if (containsStr(validSorts, size, sortOne) && containsStr(validSorts, size, sortTwo)) {
-        int* aHundredIntsOne = randomIntArrGenerator(minInt, maxInt, intWanted);
-        int* aHundredIntsTwo = randomIntArrGenerator(minInt, maxInt, intWanted);
+        int *aHundredIntsOne = randomIntArrGenerator(minInt, maxInt, intWanted);
+        int *aHundredIntsTwo = randomIntArrGenerator(minInt, maxInt, intWanted);
 
-        float* times = (float*)malloc(2 * sizeof(float));
+        float *times = (float *)malloc(2 * sizeof(float));
 
         times[0] = testSort(aHundredIntsOne, intWanted, sortOne);
         times[1] = testSort(aHundredIntsTwo, intWanted, sortTwo);
@@ -66,13 +66,13 @@ void genSortsCompLoop (char sortOne[], char sortTwo[], int minInt, int maxInt, i
         SortTwoArr[i] = timeArr[1][i];
     }
 
-    float sortOneAvg;
+    float sortOneAvg = 0;
     for(int i = 0; i < timesWanted; i++) {
         sortOneAvg += SortOneArr[i];
     }
     sortOneAvg = sortOneAvg/timesWanted;
 
-    float sortTwoAvg;
+    float sortTwoAvg = 0;
     for(int i = 0; i < timesWanted; i++) {
         sortTwoAvg += SortTwoArr[i];
     }
