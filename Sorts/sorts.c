@@ -114,6 +114,8 @@ void mergeSort (int unordered[], int start, int end) {
     }
 }
 
+// Quick Sort helper method that
+// sets the pivot and rearranges the elements
 int partition (int unordered[], int start, int end) {
     int pivot = unordered[end];
     int i = start - 1;
@@ -134,6 +136,7 @@ int partition (int unordered[], int start, int end) {
     return (i + 1);
 }
 
+// Quick Sort function that recursively sorts every element
 void quickSort (int unordered[], int start, int end) {
     if (start < end) {
         int pivotIndex = partition(unordered, start, end);

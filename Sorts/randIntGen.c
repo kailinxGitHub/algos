@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include "sorts.h"
 
+// Method to print an array in a horizontal way onto console
 void printArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         if (i == size - 1) {
@@ -19,6 +20,35 @@ void printArray(int arr[], int size) {
     printf("\n");
 }
 
+void printFloatArray(float arr[], int size) {
+    for (int i = 0; i < size; i++) {
+        if (i == size - 1) {
+            printf("%.6f. ", arr[i]);
+            break;
+        }
+        printf("%.6f. ", arr[i]);
+    }
+    printf("\n");
+}
+
+// method to write a line to a file
+void writeToFile(char *text) {
+    FILE *fptr;
+
+    fptr = fopen("bubbleSort_VS_quickSort.txt", "a");
+    if (fptr == NULL) {
+        printf("Error opening file!\n");
+        return;
+    }
+
+    fprintf(fptr, "%s\n", text);
+
+    fclose(fptr);
+}
+
+// Sorting algorithm tester that
+// takes in the type of sorting algorithm wanted
+// and runs that algorithm with a time stamp showing how long it took for one iteration
 float testSort(int arr[], int size, char type[]) {
     clock_t time_req;
 
@@ -42,14 +72,19 @@ float testSort(int arr[], int size, char type[]) {
 
     printArray(arr, size);
 
-    float timeInSec = (float)time_req;
+    float timeInSec = (float)time_req/CLOCKS_PER_SEC;
 
-    printf("%s Processor time taken: %f "
-           "seconds\n",
-           type, timeInSec/CLOCKS_PER_SEC);
+    char text[100];
+    sprintf(text, "%s Processor time taken: %f seconds\n", type, timeInSec);
+
+    writeToFile(text);
+
+    printf("%s", text);
     return timeInSec;
 }
 
+// Random Integer Array Generator
+// that generates a list of random numbers inside an array
 int* randomIntArrGenerator(int min, int max, int numWanted) {
 //    Dynamic Memory Allocation, I don't understand
     int* randomIntArr = (int*)malloc(numWanted * sizeof(int));

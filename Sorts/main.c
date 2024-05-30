@@ -11,7 +11,8 @@
 #include <time.h>
 #include "randIntGen.h"
 
-bool containsStr(const char *stringArr[], int size, const char *target) {
+// helper method to check if a string exists within an array of strings
+bool containsStr(char* stringArr[], int size, const char *target) {
     for (int i = 0; i < size; i++) {
         if (strcmp(stringArr[i], target) == 0) {
             return true;
@@ -20,69 +21,93 @@ bool containsStr(const char *stringArr[], int size, const char *target) {
     return false;
 }
 
-float *genSortsComp (char sortOne[], char sortTwo[], int minInt, int maxInt, int intWanted) {
+// Generate Sorting Algorithm Compare method that
+// takes in two sorting algorithms the user wishes to use
+// and runs both of them and compares how each one of them performs (in seconds)
+float* genSortsComp (char sortOne[], char sortTwo[], int minInt, int maxInt, int intWanted) {
     char* validSorts[] = {"selectionSort", "bubbleSort", "insertionSort", "mergeSort", "quickSort"};
     int size = sizeof(validSorts)/sizeof(validSorts[0]);
 
     if (containsStr(validSorts, size, sortOne) && containsStr(validSorts, size, sortTwo)) {
-        int *aHundredIntsOne = randomIntArrGenerator(minInt, maxInt, intWanted);
-        int *aHundredIntsTwo = randomIntArrGenerator(minInt, maxInt, intWanted);
+        int* aHundredIntsOne = randomIntArrGenerator(minInt, maxInt, intWanted);
+        int* aHundredIntsTwo = randomIntArrGenerator(minInt, maxInt, intWanted);
 
-        float *times = (float *)malloc(2 * sizeof(float));
+        float* pair = (float*)malloc(2 * sizeof(float));
+        if (pair != NULL) {
+            pair[0] = testSort(aHundredIntsOne, intWanted, sortOne);
+            pair[1] = testSort(aHundredIntsTwo, intWanted, sortTwo);
+        }
 
-        times[0] = testSort(aHundredIntsOne, intWanted, sortOne);
-        times[1] = testSort(aHundredIntsTwo, intWanted, sortTwo);
-
-        free(aHundredIntsOne);
-        free(aHundredIntsTwo);
-
-        return times;
+        return pair;
     } else {
         return NULL;
     }
 }
 
+// given an array of float pairs, find the average of all ith float in the pair
+float getPairIthAverage(float arr[][2], int size, int ith) {
+    float total = 0;
+
+    for (int i = 0; i < size; i++) {
+        total += arr[i][ith];
+    }
+
+    return total/(float)size;
+}
+
+// Generate Sorts Compare Loop is a method that
+// generates a time pair (pair of floating point times of two types of sorting algorithm)
+// for every iteration and finding the average time for each of the two sorting algorithms
 void genSortsCompLoop (char sortOne[], char sortTwo[], int minInt, int maxInt, int intWanted, int timesWanted) {
-    float timeArr[2][timesWanted];
+    float timeArr[timesWanted][2];
 
     for (int i = 0; i < timesWanted; i++) {
-        float *iteration = genSortsComp(sortOne, sortTwo, minInt, maxInt, intWanted);
 
-        if (iteration != NULL) {
-            timeArr[0][i] = iteration[0];
-            timeArr[1][i] = iteration[1];
+//        txt write
+        char text[100];
+        sprintf(text, "Iteration number: %d", i);
+        writeToFile(text);
+
+        float* timePair = genSortsComp(sortOne, sortTwo, minInt, maxInt, intWanted);
+
+        if (timePair != NULL) {
+            timeArr[i][0] = timePair[0];
+            timeArr[i][1] = timePair[1];
         } else {
-            timeArr[0][i] = 0;
-            timeArr[1][i] = 0;
+            timeArr[i][0] = 0;
+            timeArr[i][1] = 0;
         }
 
-//        debug
-        printArray(timeArr, timesWanted);
+        // debug
+        printFloatArray(timePair, 2);
+
+        free(timePair);
+
+//        txt write
+        writeToFile("---");
     }
 
-    float SortOneArr[timesWanted], SortTwoArr[timesWanted];
-    for (int i = 0; i < timesWanted; i++) {
-        SortOneArr[i] = timeArr[0][i];
-        SortTwoArr[i] = timeArr[1][i];
-    }
+    float sortOneAvg = getPairIthAverage(timeArr, timesWanted, 0);
+    float sortTwoAvg = getPairIthAverage(timeArr, timesWanted, 1);
 
-    float sortOneAvg = 0;
-    for(int i = 0; i < timesWanted; i++) {
-        sortOneAvg += SortOneArr[i];
-    }
-    sortOneAvg = sortOneAvg/timesWanted;
+    char iterationMessage[100];
+    sprintf(iterationMessage, "For a total of %d iterations \n", timesWanted);
 
-    float sortTwoAvg = 0;
-    for(int i = 0; i < timesWanted; i++) {
-        sortTwoAvg += SortTwoArr[i];
-    }
-    sortTwoAvg = sortTwoAvg/timesWanted;
+    char averageMessage[200];
+    sprintf(averageMessage, "%s Processor Average time taken: %.8f "
+                  "seconds\n"
+                  "%s Processor Average time taken: %.8f "
+                  "seconds\n",
+            sortOne, sortOneAvg, sortTwo, sortTwoAvg);
 
-    printf("%s Processor time taken: %f "
-           "seconds\n"
-           "%s Processor time taken: %f "
-           "seconds\n",
-           sortOne, sortOneAvg/CLOCKS_PER_SEC, sortTwo, sortTwoAvg/CLOCKS_PER_SEC);
+    printf("--- \n");
+    printf("%s", iterationMessage);
+    printf("%s", averageMessage);
+
+    //        txt write
+    writeToFile("---");
+    writeToFile(iterationMessage);
+    writeToFile(averageMessage);
 }
 
 int main(void) {
