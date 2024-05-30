@@ -8,4 +8,6 @@ add_executable(Sort main.c
         sorts.h
         randIntGen.h
         randIntGen.c
+        misc.c
+        misc.h
 )

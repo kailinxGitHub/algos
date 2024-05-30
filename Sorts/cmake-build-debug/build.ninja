@@ -67,6 +67,12 @@ build CMakeFiles/Sort.dir/randIntGen.c.o: C_COMPILER__Sort_unscanned_Debug /User
   OBJECT_DIR = CMakeFiles/Sort.dir
   OBJECT_FILE_DIR = CMakeFiles/Sort.dir
 
+build CMakeFiles/Sort.dir/misc.c.o: C_COMPILER__Sort_unscanned_Debug /Users/kailinx/Desktop/algos/Sorts/misc.c || cmake_object_order_depends_target_Sort
+  DEP_FILE = CMakeFiles/Sort.dir/misc.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sort.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Sort
@@ -75,7 +81,7 @@ build CMakeFiles/Sort.dir/randIntGen.c.o: C_COMPILER__Sort_unscanned_Debug /User
 #############################################
 # Link the executable Sort
 
-build Sort: C_EXECUTABLE_LINKER__Sort_Debug CMakeFiles/Sort.dir/main.c.o CMakeFiles/Sort.dir/sorts.c.o CMakeFiles/Sort.dir/randIntGen.c.o
+build Sort: C_EXECUTABLE_LINKER__Sort_Debug CMakeFiles/Sort.dir/main.c.o CMakeFiles/Sort.dir/sorts.c.o CMakeFiles/Sort.dir/randIntGen.c.o CMakeFiles/Sort.dir/misc.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/Sort.dir
   POST_BUILD = :

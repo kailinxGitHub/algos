@@ -7,19 +7,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stdbool.h>
 #include <time.h>
 #include "randIntGen.h"
-
-// helper method to check if a string exists within an array of strings
-bool containsStr(char* stringArr[], int size, const char *target) {
-    for (int i = 0; i < size; i++) {
-        if (strcmp(stringArr[i], target) == 0) {
-            return true;
-        }
-    }
-    return false;
-}
+#include "misc.h"
 
 // Generate Sorting Algorithm Compare method that
 // takes in two sorting algorithms the user wishes to use
@@ -42,17 +32,6 @@ float* genSortsComp (char sortOne[], char sortTwo[], int minInt, int maxInt, int
     } else {
         return NULL;
     }
-}
-
-// given an array of float pairs, find the average of all ith float in the pair
-float getPairIthAverage(float arr[][2], int size, int ith) {
-    float total = 0;
-
-    for (int i = 0; i < size; i++) {
-        total += arr[i][ith];
-    }
-
-    return total/(float)size;
 }
 
 // Generate Sorts Compare Loop is a method that
@@ -111,5 +90,5 @@ void genSortsCompLoop (char sortOne[], char sortTwo[], int minInt, int maxInt, i
 }
 
 int main(void) {
-    genSortsCompLoop("bubbleSort", "quickSort", 1, 1000, 100, 20);
+    genSortsCompLoop("bubbleSort", "quickSort", 1, 1000, 100, 1000);
 }
