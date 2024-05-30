@@ -111,5 +111,5 @@ void genSortsCompLoop (char sortOne[], char sortTwo[], int minInt, int maxInt, i
 }
 
 int main(void) {
-    genSortsCompLoop("bubbleSort", "quickSort", 1, 1000, 100, 1);
+    genSortsCompLoop("bubbleSort", "quickSort", 1, 1000, 100, 20);
 }
