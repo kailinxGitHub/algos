@@ -35,7 +35,7 @@ void printFloatArray(float arr[], int size) {
 void writeToFile(char *text) {
     FILE *fptr;
 
-    fptr = fopen("bubbleSort_VS_quickSort.txt", "a");
+    fptr = fopen("test.txt", "a");
     if (fptr == NULL) {
         printf("Error opening file!\n");
         return;

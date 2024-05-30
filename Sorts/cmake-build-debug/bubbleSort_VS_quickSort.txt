@@ -1,0 +1,1267 @@
+Iteration number: 0
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 1
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 2
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 3
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 4
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 5
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 6
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 7
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 8
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 9
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 10
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 11
+bubbleSort Processor time taken: 0.000025 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 12
+bubbleSort Processor time taken: 0.000026 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 13
+bubbleSort Processor time taken: 0.000027 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 14
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 15
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 16
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 17
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000009 seconds
+
+---
+Iteration number: 18
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 19
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 20
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 21
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 22
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 23
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 24
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 25
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 26
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 27
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 28
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 29
+bubbleSort Processor time taken: 0.000017 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 30
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 31
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 32
+bubbleSort Processor time taken: 0.000026 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 33
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 34
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 35
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 36
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 37
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 38
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 39
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 40
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 41
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 42
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 43
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 44
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000018 seconds
+
+---
+Iteration number: 45
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 46
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 47
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 48
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 49
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 50
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 51
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 52
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 53
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 54
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 55
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 56
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 57
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 58
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 59
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 60
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 61
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 62
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 63
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 64
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 65
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 66
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 67
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 68
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 69
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 70
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 71
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 72
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 73
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 74
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 75
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000016 seconds
+
+---
+Iteration number: 76
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 77
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 78
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 79
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 80
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 81
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 82
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 83
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 84
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 85
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000009 seconds
+
+---
+Iteration number: 86
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 87
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 88
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 89
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 90
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 91
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 92
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 93
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 94
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 95
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 96
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 97
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 98
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 99
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 100
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 101
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 102
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 103
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 104
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 105
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 106
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 107
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 108
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 109
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 110
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 111
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 112
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 113
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 114
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 115
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 116
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 117
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 118
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 119
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 120
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 121
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 122
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 123
+bubbleSort Processor time taken: 0.000024 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 124
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 125
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 126
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 127
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 128
+bubbleSort Processor time taken: 0.000028 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 129
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 130
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 131
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 132
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 133
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 134
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 135
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 136
+bubbleSort Processor time taken: 0.000025 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 137
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 138
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 139
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000010 seconds
+
+---
+Iteration number: 140
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 141
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 142
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 143
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 144
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 145
+bubbleSort Processor time taken: 0.000024 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 146
+bubbleSort Processor time taken: 0.000026 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 147
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 148
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 149
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 150
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 151
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 152
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 153
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 154
+bubbleSort Processor time taken: 0.000024 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 155
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 156
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 157
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 158
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 159
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 160
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 161
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 162
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 163
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 164
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 165
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 166
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 167
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 168
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 169
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 170
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 171
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 172
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 173
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 174
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 175
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 176
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 177
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 178
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 179
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 180
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 181
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 182
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 183
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 184
+bubbleSort Processor time taken: 0.000027 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 185
+bubbleSort Processor time taken: 0.000024 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 186
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 187
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 188
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000009 seconds
+
+---
+Iteration number: 189
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 190
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 191
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 192
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 193
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 194
+bubbleSort Processor time taken: 0.000024 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 195
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 196
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 197
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 198
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 199
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 200
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 201
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+Iteration number: 202
+bubbleSort Processor time taken: 0.000022 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 203
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000004 seconds
+
+---
+Iteration number: 204
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000008 seconds
+
+---
+Iteration number: 205
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 206
+bubbleSort Processor time taken: 0.000019 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+---
+Iteration number: 207
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 208
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 209
+bubbleSort Processor time taken: 0.000023 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 210
+bubbleSort Processor time taken: 0.000021 seconds
+
+quickSort Processor time taken: 0.000005 seconds
+
+---
+Iteration number: 211

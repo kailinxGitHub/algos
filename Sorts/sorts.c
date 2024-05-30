@@ -120,7 +120,7 @@ int partition (int unordered[], int start, int end) {
     int pivot = unordered[end];
     int i = start - 1;
 
-    for (int j = start; j < end - 1; j++) {
+    for (int j = start; j <= end - 1; j++) {
         if (unordered[j] < pivot) {
             i++;
             int temp = unordered[i];

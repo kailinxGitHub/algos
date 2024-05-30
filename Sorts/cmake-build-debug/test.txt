@@ -1,0 +1,12 @@
+Iteration number: 0
+bubbleSort Processor time taken: 0.000020 seconds
+
+quickSort Processor time taken: 0.000006 seconds
+
+---
+---
+For a total of 1 iterations 
+
+bubbleSort Processor Average time taken: 0.00002000 seconds
+quickSort Processor Average time taken: 0.00000600 seconds
+
