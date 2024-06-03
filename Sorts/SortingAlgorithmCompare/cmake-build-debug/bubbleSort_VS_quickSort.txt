@@ -6004,3 +6004,11 @@ For a total of 1000 iterations
 bubbleSort Processor Average time taken: 0.00002040 seconds
 quickSort Processor Average time taken: 0.00000646 seconds
 
+bubbleSort Processor time taken: 0.000018 seconds
+
+quickSort Processor time taken: 0.000007 seconds
+
+bubbleSort Processor time taken: 0.001168 seconds
+
+quickSort Processor time taken: 0.000069 seconds
+
