@@ -3,4 +3,5 @@ project(Vectors C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Vectors main.c)
+add_executable(Vectors main.c
+        randIntGen.c)
