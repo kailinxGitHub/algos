@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <math.h>
 #include "randIntGen.h"
 
 void matrixMultiplication(int size, int arr1[size][size], int arr2[size][size], int result[size][size]) {
@@ -14,7 +15,7 @@ void matrixMultiplication(int size, int arr1[size][size], int arr2[size][size], 
     }
 }
 
-void matrixMultiplicationTest(int size) {
+float matrixMultiplicationTest(int size) {
     int randomIntArr1[size][size];
     int randomIntArr2[size][size];
 
@@ -48,12 +49,37 @@ void matrixMultiplicationTest(int size) {
     printf("Time Taken: %.10f \n", timeInSec);
     printf("---\n");
     printf("---\n");
+    return timeInSec;
+}
+
+void matrixMultiPowTwoGraph (int numberOfTimes) {
+    double power;
+    float time;
+    for (int i = 0; i < numberOfTimes; i++) {
+        power = pow(2.0, i + 1);
+        time = matrixMultiplicationTest((int) power);
+
+        FILE *fptr;
+
+        fptr = fopen("matrixGraph.csv", "a");
+        if (fptr == NULL) {
+            printf("Error opening file!\n");
+            return;
+        }
+
+        fprintf(fptr, "%f, %.10f\n", power, time);
+
+        fclose(fptr);
+    }
 }
 
 int main(void) {
-    matrixMultiplicationTest(128);
-    matrixMultiplicationTest(256);
-    matrixMultiplicationTest(512);
+    FILE *fptr;
+    fptr = fopen("matrixGraph.csv", "w");
+    fprintf(fptr,"Power, Time Taken\n");
+    fclose(fptr);
+
+    matrixMultiPowTwoGraph(9);
 
     return 0;
 }
