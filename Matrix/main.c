@@ -76,7 +76,7 @@ void matrixMultiPowTwoGraph (int numberOfTimes) {
 int main(void) {
     FILE *fptr;
     fptr = fopen("matrixGraph.csv", "w");
-    fprintf(fptr,"Power, Time Taken\n");
+    fprintf(fptr,"Powers, Time Taken\n");
     fclose(fptr);
 
     matrixMultiPowTwoGraph(9);

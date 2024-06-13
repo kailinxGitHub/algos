@@ -1,4 +1,17 @@
-/Users/kailinx/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/kailinx/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/kailinx/Desktop/algos/Matrix -B /Users/kailinx/Desktop/algos/Matrix/cmake-build-debug
--- Configuring done (0.0s)
+/Users/kailinx/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/kailinx/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -DPython_EXECUTABLE=/Users/kailinx/anaconda3/bin/python -DPython3_EXECUTABLE=/Users/kailinx/anaconda3/bin/python -S /Users/kailinx/Desktop/algos/Matrix -B /Users/kailinx/Desktop/algos/Matrix/cmake-build-debug
+-- The C compiler identification is AppleClang 15.0.0.15000309
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.5s)
 -- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Python3_EXECUTABLE
+    Python_EXECUTABLE
+
+
 -- Build files have been written to: /Users/kailinx/Desktop/algos/Matrix/cmake-build-debug
