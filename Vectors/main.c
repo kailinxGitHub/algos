@@ -3,6 +3,8 @@
 #include <time.h>
 #include "randIntGen.h"
 
+#define TILE_SIZE 6
+
 void generateVector(int size, int array[size]) {
     for (int i = 0; i < size; i++) {
         array[i] = rand() % 101;
@@ -12,6 +14,14 @@ void generateVector(int size, int array[size]) {
 void vectorAddition(int size, int arr1[size], int arr2[size], int result[size]) {
     for (int i = 0; i < size; i++) {
         result[i] = arr1[i] + arr2[i];
+    }
+}
+
+void vectorAdditionTiled(int size, int arr1[size], int arr2[size], int result[size]) {
+    for (int i = 0; i < size; i += TILE_SIZE) {
+        for (int j = i; j < i + TILE_SIZE && j < size; j++) {
+            result[j] = arr1[j] + arr2[j];
+        }
     }
 }
 
@@ -26,7 +36,7 @@ void vectorAdditionTest(int size) {
     clock_t time_req;
     time_req = clock();
 
-    vectorAddition(size, vector1, vector2, final);
+    vectorAdditionTiled(size, vector1, vector2, final);
 
     time_req = clock() - time_req;
     float timeInSec = (float)time_req/CLOCKS_PER_SEC;
@@ -43,6 +53,14 @@ void dotProduct(int size, int arr1[size], int arr2[size], int result[size]) {
     }
 }
 
+void dotProductTiled(int size, int arr1[size], int arr2[size], int result[size]) {
+    for (int i = 0; i < size; i += TILE_SIZE) {
+        for (int j = i; j < i + TILE_SIZE && j < size; j++) {
+            result[j] = arr1[j] * arr2[j];
+        }
+    }
+}
+
 void dotProductTest(int size) {
     int vector1[size];
     int vector2[size];
@@ -54,7 +72,7 @@ void dotProductTest(int size) {
     clock_t time_req;
     time_req = clock();
 
-    dotProduct(size, vector1, vector2, final);
+    dotProductTiled(size, vector1, vector2, final);
 
     time_req = clock() - time_req;
     float timeInSec = (float)time_req/CLOCKS_PER_SEC;
@@ -77,6 +95,9 @@ int main(void) {
     dotProductTest(1000);
 
     dotProductTest(10000);
+
+    dotProductTest(100000);
+
 //    100
 //    int HUNDRED = 100;
 //    int vector1[HUNDRED];

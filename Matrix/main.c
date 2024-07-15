@@ -4,22 +4,44 @@
 #include <math.h>
 #include "randIntGen.h"
 
-void matrixMultiplication(int size, int arr1[size][size], int arr2[size][size], int result[size][size]) {
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
-            result[i][j] = 0;
-            for (int k = 0; k < size; k++) {
-                result[i][j] += arr1[i][k] * arr2[k][j];
+//dimension of a sub-matrix that the entire multiplication process is broken down into
+#define TILE_SIZE 12
+
+//tiled
+void matrixMultiplicationTiled(int size, int arr1[size][size], int arr2[size][size], int result[size][size]) {
+    for (int i = 0; i < size; i += TILE_SIZE) {
+        for (int j = 0; j < size; j += TILE_SIZE) {
+            for (int k = 0; k < size; k += TILE_SIZE) {
+                // Multiply the tiles
+                for (int ii = i; ii < i + TILE_SIZE && ii < size; ++ii) {
+                    for (int jj = j; jj < j + TILE_SIZE && jj < size; ++jj) {
+                        for (int kk = k; kk < k + TILE_SIZE && kk < size; ++kk) {
+                            result[ii][jj] += arr1[ii][kk] * arr2[kk][jj];
+                        }
+                    }
+                }
             }
         }
     }
 }
 
+//// not tiled
+//void matrixMultiplication(int size, int arr1[size][size], int arr2[size][size], int result[size][size]) {
+//    for (int i = 0; i < size; i++) {
+//        for (int j = 0; j < size; j++) {
+//            result[i][j] = 0;
+//            for (int k = 0; k < size; k++) {
+//                result[i][j] += arr1[i][k] * arr2[k][j];
+//            }
+//        }
+//    }
+//}
+
+
 float matrixMultiplicationTest(int size) {
     int randomIntArr1[size][size];
     int randomIntArr2[size][size];
 
-    srand(time(0));
     randomIntArrGenerator(0,100, size, randomIntArr1);
     randomIntArrGenerator(0,100, size, randomIntArr2);
 
@@ -27,7 +49,7 @@ float matrixMultiplicationTest(int size) {
     clock_t time_req;
     time_req = clock();
 
-    matrixMultiplication(size, randomIntArr1, randomIntArr2, randomIntArrResult);
+    matrixMultiplicationTiled(size, randomIntArr1, randomIntArr2, randomIntArrResult);
 
     time_req = clock() - time_req;
     float timeInSec = (float)time_req/CLOCKS_PER_SEC;
@@ -61,7 +83,7 @@ void matrixMultiPowTwoGraph (int numberOfTimes) {
 
         FILE *fptr;
 
-        fptr = fopen("matrixGraph.csv", "a");
+        fptr = fopen("matrixGraphTiled.csv", "a");
         if (fptr == NULL) {
             printf("Error opening file!\n");
             return;
@@ -75,11 +97,17 @@ void matrixMultiPowTwoGraph (int numberOfTimes) {
 
 int main(void) {
     FILE *fptr;
-    fptr = fopen("matrixGraph.csv", "w");
+    fptr = fopen("matrixGraphTiled.csv", "w");
     fprintf(fptr,"Powers, Time Taken\n");
     fclose(fptr);
 
-    matrixMultiPowTwoGraph(9);
+    srand(time(0));
+
+//    for not tiled 9 is as far as it goes without the exit error 139
+//    matrixMultiPowTwoGraph(9);
+
+//    for tiled solution
+    matrixMultiPowTwoGraph(12);
 
     return 0;
 }
