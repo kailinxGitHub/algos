@@ -1,0 +1,3 @@
+/Users/kailinx/Desktop/algos/threads/cmake-build-debug/CMakeFiles/threads.dir
+/Users/kailinx/Desktop/algos/threads/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kailinx/Desktop/algos/threads/cmake-build-debug/CMakeFiles/rebuild_cache.dir
