@@ -4,7 +4,7 @@
 #include <time.h>
 
 #define MAX_THREADS 8
-#define SIZE 256
+#define SIZE 512
 
 int arr1[SIZE][SIZE];
 int arr2[SIZE][SIZE];
