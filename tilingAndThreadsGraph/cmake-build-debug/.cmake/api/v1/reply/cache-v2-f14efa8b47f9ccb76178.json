@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "tilingAndThreads"
+			"value" : "tilingAndThreadsGraph"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1020,6 +1020,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "tilingAndThreadsGraph_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/kailinx/Desktop/algos/tilingAndThreadsGraph/cmake-build-debug"
+		},
+		{
+			"name" : "tilingAndThreadsGraph_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "tilingAndThreadsGraph_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/kailinx/Desktop/algos/tilingAndThreadsGraph"
 		},
 		{
 			"name" : "tilingAndThreads_BINARY_DIR",
