@@ -3,7 +3,6 @@ import numpy as np
 
 file = open("./cmake-build-debug/threadScaling.csv", "r")
 
-
 threads = []
 time = []
 
@@ -12,13 +11,16 @@ for line_number, line in enumerate(file):
         continue
     
     parts = line.split(",")
-    threads.append(int(parts[0]))
-    time.append(float(parts[1]))
-    
+    thread_count = int(parts[0])
+    if thread_count % 2 == 0:
+        threads.append(thread_count)
+        time.append(float(parts[1]))
+
 fig, ax = plt.subplots()
 ax.plot(threads, time)
-plt.title("threads vs time")
-plt.xlabel("threads")
+plt.title("Threads vs Time")
+plt.xlabel("Threads")
 plt.ylabel("Time (s)")
 ax.set_aspect(aspect='auto')
+plt.xscale('log', base=2)
 plt.show()
