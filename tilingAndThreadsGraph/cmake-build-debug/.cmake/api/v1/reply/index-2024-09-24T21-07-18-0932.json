@@ -11,31 +11,31 @@
 			"cmake" : "/Users/kailinx/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake",
 			"cpack" : "/Users/kailinx/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cpack",
 			"ctest" : "/Users/kailinx/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest",
-			"root" : "/Users/kailinx/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28"
+			"root" : "/Users/kailinx/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 28,
-			"patch" : 1,
-			"string" : "3.28.1",
+			"minor" : 29,
+			"patch" : 6,
+			"string" : "3.29.6",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-387321081bd3a0f6cef0.json",
+			"jsonFile" : "codemodel-v2-89b4385195b049c36ef2.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 6
+				"minor" : 7
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-f14efa8b47f9ccb76178.json",
+			"jsonFile" : "cache-v2-9e42123d3e11a0bbeae3.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-a9ed5c688ed2608824b7.json",
+			"jsonFile" : "cmakeFiles-v1-5a8f2c033e90c9c8bb5b.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -66,7 +66,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-f14efa8b47f9ccb76178.json",
+			"jsonFile" : "cache-v2-9e42123d3e11a0bbeae3.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,7 +76,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-a9ed5c688ed2608824b7.json",
+			"jsonFile" : "cmakeFiles-v1-5a8f2c033e90c9c8bb5b.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -86,12 +86,12 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-387321081bd3a0f6cef0.json",
+			"jsonFile" : "codemodel-v2-89b4385195b049c36ef2.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 6
+				"minor" : 7
 			}
 		},
 		"toolchains-v1" : 
