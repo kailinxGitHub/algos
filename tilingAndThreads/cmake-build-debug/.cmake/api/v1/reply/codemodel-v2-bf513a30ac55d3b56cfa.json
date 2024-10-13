@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "tilingAndThreads::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tilingAndThreads-Debug-a5c69acf1f6f7834cf3e.json",
+					"jsonFile" : "target-tilingAndThreads-Debug-c35c45de4c8a1df9a555.json",
 					"name" : "tilingAndThreads",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }
